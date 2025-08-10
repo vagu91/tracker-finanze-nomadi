@@ -1,0 +1,184 @@
+/* Base styles for the personal finance template website */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f7f9fc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #fff;
+  color: #2575fc;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e6e6e6;
+  color: #2575fc;
+}
+
+/* Features section */
+.features {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #2575fc;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feature-item {
+  background: #f1f5fb;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature-item h3 {
+  color: #2575fc;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.feature-item p {
+  font-size: 1rem;
+}
+
+/* Benefits section */
+.benefits {
+  padding: 60px 0;
+  background: #f7f9fc;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #2575fc;
+}
+
+.benefit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.benefit-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.benefit-item h3 {
+  color: #2575fc;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.benefit-item p {
+  font-size: 1rem;
+}
+
+/* Details section */
+.details {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.details h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #2575fc;
+}
+
+.detail-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.detail-item {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.detail-item h3 {
+  color: #2575fc;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.detail-item p {
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  background: #2575fc;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .feature-item, .benefit-item, .detail-item {
+    flex: 1 1 100%;
+    max-width: none;
+  }
+}
